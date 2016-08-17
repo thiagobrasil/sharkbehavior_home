@@ -41,12 +41,12 @@
     <div class="row">
       <div class="col-md-12">
         <div class="titulo">
-          <h3>Shark Behavior ADM</h3>
+          <legend><h3>Shark Behavior ADM</h3></legend>
         </div>
       </div>
     </div>
   </div>
-  <br>
+  <br><br>
 
   <div class="container">
     <ul class="nav nav-tabs">
@@ -97,6 +97,7 @@
         <!-- Modal Observações -->
         <div id="obs" class="tab-pane fade">
           <h3>Observações</h3>
+          <br>
           <div class="form-group">
               <label for="comment">Escreva abaixo:</label>
               <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -107,6 +108,7 @@
         <!--  Modal pesquisa por datas-->
         <div id="date" class="tab-pane fade">
           <h3>Pesquisa por Datas</h3>
+          <br>
           <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p> -->
           <div class="form-group row">
             <!-- <label for="example-datetime-local-input" class="col-xs-2 col-form-label">Date and time</label> -->
