@@ -72,29 +72,29 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Usuário 1</td>
-                  <td>Curso 1</td>
+                  <td>Maria Luiza Gomes Soares</td>
+                  <td>Zootecnia</td>
                   <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Remover</button></td>
                 </tr>
                 <tr>
-                  <td>Usuário 2</td>
-                  <td>Curso 2</td>
+                  <td>Anna Raquel de Andrade</td>
+                  <td>Biologia</td>
                   <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Remover</button></td>
                 </tr>
                 <tr>
-                  <td>Usuário 3</td>
-                  <td>Curso 3</td>
+                  <td>João Alberto Lima Cavalcanti</td>
+                  <td>Veterinária</td>
                   <td><button type="button" class="btn btn-warning">Editar</button> <button type="button" class="btn btn-danger">Remover</button></td>
                 </tr>
               </tbody>
             </table>
             <br>
             <!-- <p>Adicionar novo funcionário</p> -->
-              <button type="button" class="btn btn-success">Adicionar novo observador</button>
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#novoObservador">Adicionar novo observador</button>
           </div>
         </div>
 
-        <!-- Modal Observações -->
+        <!-- Modal observações, refere-se a TAB Observações -->
         <div id="obs" class="tab-pane fade">
           <h3>Observações</h3>
           <br>
@@ -120,6 +120,56 @@
         </div>
       </div>
     </div>
+
+
+<div class="container">
+  <!-- <h2>Novo Observador</h2> -->
+  <!-- Trigger the modal with a button -->
+  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#novoObservador">Open Small Modal</button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="novoObservador" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Novo Observador</h4>
+        </div>
+        <div class="modal-body">
+          <!--  Dados do novo observador -->
+          <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="observadorNome">Nome: </label>
+    <div class="col-sm-10">
+      <input type="name" class="form-control" id="observadorNome" placeholder="Informe o nome">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="cursoNome">Curso: </label>
+    <div class="col-sm-10">
+      <input type="name" class="form-control" id="cursoNome" placeholder="Informe o curso">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-success">Cadastrar</button>
+    </div>
+  </div>
+</form>
+<!-- Fim dos dados do novo observador -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   </div> <!-- end container modals -->
